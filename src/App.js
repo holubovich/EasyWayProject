@@ -1,27 +1,38 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-class App extends Component {
-  render() {
+import Home from './components/pages/home/home';
+import About from './components/pages/about/about';
+
+import Header from './components/header/header.js';
+import Footer from './components/footer/footer.js';
+
+import {BrowserRouter, Route, Link} from "react-router-dom";
+import createBrowserHistory from "history/createBrowserHistory";
+
+const history = createBrowserHistory();
+
+
+
+class App extends React.Component {
+  render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+
+
+        <BrowserRouter history={history}>
+
+
+          <div>
+
+              <Header/>
+
+            <Route exact path ="/" component={Home}/>
+            <Route path ="/about" component={About}/>
+
+              <Footer/>
+
+          </div>
+        </BrowserRouter>
+    )
   }
 }
 
