@@ -1,3 +1,136 @@
 .home-main{
-  color: red;
+  position: relative;
+  width: 1184px;
+  height: 1890px;
+  margin: 0 auto;
+  
+  .catalog-list{
+    height:140px;
+    width: 1184px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    .list{
+      position:relative;
+      height: 70px;
+      width: 160px;
+      display: block;
+      margin: 0 auto;
+    }
+    .item1{
+      background-image: url("../../../images/wash.png");
+      background-repeat: no-repeat;
+      width: 60px;
+      display: block;
+    }
+    .item2{
+      background-image: url("../../../images/heart.png");
+      background-repeat: no-repeat;
+      width: 60px;
+    }
+    .item3{
+      background-image: url("../../../images/sport.png");
+      background-repeat: no-repeat;
+      width: 60px;
+    }
+    .item4{
+      background-image: url("../../../images/duck.png");
+      background-repeat: no-repeat;
+      width: 80px;
+    }
+    .item5{
+      background-image: url("../../../images/hat.png");
+      background-repeat: no-repeat;
+      width: 80px;
+    }
+    .item6{
+      background-image: url("../../../images/right.png");
+      background-repeat: no-repeat;
+      width: 60px;
+      height: 45px;
+      margin-top: 27px;
+    }
+    p{
+      text-align: center;
+      width: 160px;
+      margin-left: 50px;
+    }
+}
+  .panel{
+    display: flex;
+
+    .slider{
+      width: 60%;
+    }
+    .donate{
+      width: 40%;
+      border: solid 1px #e1e1e1;
+      margin-left: 10px;
+
+      .text-element{
+        text-align: center;
+        font-size: 35px;
+        font-weight: normal;
+        opacity: 0.5;
+        height: 50px;
+        padding-top: 25px;
+      }
+      .element{
+        display: flex;
+        height: 62px;
+        padding-top: 20px;
+        margin-top: 10px;
+      }
+      .number{
+        width: 50%;
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .img{
+        width: 40%;
+        margin: 0 auto;
+
+      }
+      .el_1{
+        border-bottom: 1px solid #e1e1e1;
+        padding-bottom: 10px;
+
+        .number1{
+          color:#2cbae7;
+        }
+        .img1{
+          background-image: url(../../../images/gazprom.png);
+          background-repeat: no-repeat;
+          margin-left: 60px;
+          margin-bottom: 20px;
+          height: 60px;
+        }
+      }
+
+      .el_2{
+        border-bottom: 1px solid #e1e1e1;
+        .number2{
+          color:#ec6026;
+
+        }
+        .img2{
+          background-image: url(../../../images/belbank.png);
+          background-repeat: no-repeat;
+        }
+      }
+
+      .el_3{
+        .number3{
+          color:#fbad22;
+        }
+        .img3{
+          background-image: url(../../../images/belkaliy.png);
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+
 }

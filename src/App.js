@@ -6,6 +6,8 @@ import About from './components/pages/about/about';
 import Header from './components/header/header.js';
 import Footer from './components/footer/footer.js';
 
+import Slider from './components/slider/slider.js';
+
 import {BrowserRouter, Route, Link} from "react-router-dom";
 import createBrowserHistory from "history/createBrowserHistory";
 
