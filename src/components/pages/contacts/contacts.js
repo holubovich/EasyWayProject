@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-import "./about.scss"
+import "./contacts.scss"
 
 
 
-export default class About extends Component {
+export default class Contacts extends Component {
     render() {
         return (
             <div className="body-about">
-            <div className="page-about">
-               <a href="/home" title="Back to the main page"> Main</a> / About us
-            </div>
+                <div className="page-about">
+                    <a href="/home" title="Back to the main page"> Main</a> / Contacts
+                </div>
                 <div className="main-wave">
                     <div className="wave left"></div>
-                    <div className="wave-text">About us</div>
+                    <div className="wave-text">Contacts</div>
                     <div className="wave right"></div>
                 </div>
                 <div className="description">

@@ -11,9 +11,9 @@ export default class Header extends Component {
                 <div className="logo"></div>
                 <div className="ul-menu">
                     <ul>
-                    <li><a href="/about">About us</a></li>
+                    <li><a href="/about" title="If you want to know about us">About us</a></li>
                     <li><a href="#">Become a partner</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="/contacts">Contacts</a></li>
                     </ul>
                 </div>
                     <div className="help">Together we help!</div>

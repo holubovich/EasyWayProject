@@ -1,0 +1,44 @@
+.discounts-main {
+  width: 1184px;
+  height: 302px;
+  margin: 0 auto;
+  display: flex;
+.disc {
+  width: 33%;
+  color: white;
+  text-align: center;
+}
+  .discont{
+    background-image: url(../../images/15.png);
+  }
+
+  .prize{
+    background-image: url(../../images/prize.png);
+    margin-left: 10px;
+  }
+
+  .sale{
+    background-image: url(../../images/action.png);
+    margin-left: 10px;
+  }
+  .number{
+    font-size: 40px;
+    margin-top: 70px;
+  }
+  .num1{
+    color: #2cbae7;
+    text-decoration: wavy underline #2cbae7;}
+  .num2{
+    color: #ec6026;
+    text-decoration: wavy underline #ec6026;}
+  .num3{
+    color: #fbad22;
+    text-decoration: wavy underline #fbad22;}
+
+  .text{
+    margin-top: 16px;
+    height: 120px;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+}

@@ -11,9 +11,9 @@ export default class Footer extends Component {
                     <div className="logo-ft"></div>
                     <div className="ul-menu">
                         <ul>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="/about" title="Go to the page about us">About us</a></li>
                             <li><a href="#">Become a partner</a></li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a href="/contacts">Contacts</a></li>
                         </ul>
                     </div>
                     <div className="icons">

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./home.scss"
 
 import Slider from '../../slider/slider.js';
+import Discounts from '../../discounts/discounts.js';
 
 export default class Home extends Component {
     render() {
@@ -34,6 +35,7 @@ export default class Home extends Component {
                     </div>
 
                 </div>
+                <Discounts/>
             </div>
 
         )
