@@ -35,7 +35,27 @@ export default class Home extends Component {
                     </div>
 
                 </div>
-                <Discounts/>
+                <div className="money-main">
+                    <div className="money mon1">
+                        <p>funds received</p>
+                        <div className="mon_nmb">25 789 rub.</div>
+                    </div>
+                    <div className="money mon2">
+                        <p>not distributed</p>
+                        <div className="mon_nmb">11 524 rub.</div>
+                    </div>
+                    <div className="money mon3">
+                        <p>donated</p>
+                        <div className="mon_nmb">14 265 rub.</div>
+                    </div>
+                </div>
+                <Discounts number={"15%"}/>
+                <div className="main-wave">
+                    <div className="wave left"></div>
+                    <div className="wave-text">All events</div>
+                    <div className="wave right"></div>
+                </div>
+                <div className="review"> Reviews<a href="" color="#f08051"><sup> All reviews</sup></a></div>
             </div>
 
         )
