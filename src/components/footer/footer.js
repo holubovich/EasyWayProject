@@ -17,15 +17,15 @@ export default class Footer extends Component {
                         </ul>
                     </div>
                     <div className="icons">
-                        <i class="fab fa-vk fa-2x"></i>
-                        <i class="fab fa-facebook-f fa-2x"></i>
-                        <i class="fab fa-instagram fa-2x"></i>
-                        <i class="fab fa-twitter fa-2x"></i>
+                        <i className="fab fa-vk fa-2x"></i>
+                        <i className="fab fa-facebook-f fa-2x"></i>
+                        <i className="fab fa-instagram fa-2x"></i>
+                        <i className="fab fa-twitter fa-2x"></i>
                     </div>
                 </div>
                 <div className="ft-bt">
                     <p>
-                        <i class="far fa-info-circle fa-xs"></i>
+                        <i className="far fa-info-circle fa-xs"></i>
                      2019 OOO"Charitable Aid Fund" YNP 1234678
                     </p>
 

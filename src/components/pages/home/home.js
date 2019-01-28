@@ -3,6 +3,7 @@ import "./home.scss"
 
 import Slider from '../../slider/slider.js';
 import Discounts from '../../discounts/discounts.js';
+import News from '../../news/news.js';
 
 export default class Home extends Component {
     render() {
@@ -55,7 +56,34 @@ export default class Home extends Component {
                     <div className="wave-text">All events</div>
                     <div className="wave right"></div>
                 </div>
-                <div className="review"> Reviews<a href="" color="#f08051"><sup> All reviews</sup></a></div>
+                <div className="review-main"><p> Reviews <a href="" color="#f08051"><sup> All reviews</sup></a></p></div>
+                   <div className="review">
+                       <div className="rev_nam">
+                           <div className="view1">
+                               <div className="img1"></div>
+                               <div className="text-view">
+                                   Thank you very much!
+                                   I am satisfied with the work of the installers.
+                                   Everything has been completed with high quality and on time.
+                                   Very decent and attentive. All staff are friendly and responsive ...
+                               </div>
+                           </div>
+                           <div className="name">Julia</div>
+                       </div>
+                       <div className="rev_nam">
+                           <div className="view2">
+                               <div className="img2"></div>
+                               <div className="text-view">
+                                   Thank you very much!
+                                   I am satisfied with the work of the installers.
+                                   Everything has been completed with high quality and on time.
+                                   Very decent and attentive. All staff are friendly and responsive ...
+                               </div>
+                           </div>
+                           <div className="name">Anna</div>
+                       </div>
+                   </div>
+                <News/>
             </div>
 
         )

@@ -1,6 +1,6 @@
-.body-about{
+.contacts-main{
   width: 1184px;
-  height: 584px;
+  height: 900px;
   margin: 0 auto;
 
   .page-about{
@@ -82,4 +82,9 @@
   a{
     color: #b0b0b0;
   }
+Map{
+  margin-bottom: 20px;
+  height: 365px;
+  z-index: 100;
+}
 }

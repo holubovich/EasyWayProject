@@ -23,7 +23,7 @@ export default class Header extends Component {
                         <p className="services">Services</p>
                     </div>
                     <div className="cabinet">
-                        <i class="fas fa-user-alt" aria-hidden="true"></i>
+                        <i className="fas fa-user-alt" aria-hidden="true"></i>
                         <p> Personal Area</p>
                     </div>
 

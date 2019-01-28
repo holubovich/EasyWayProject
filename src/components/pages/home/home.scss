@@ -222,8 +222,49 @@
 
   }
 //----------------------wave-----------------------------
-  .review{
-    text-align: center;
+  .review-main{
     font-size: 30px;
+    display: flex;
+    width: 240px;
+    margin-left: 495px;
+    height: 90px;
+    }
+    .review{
+      display: flex;
+      height: 180px;
+      margin-top: 25px;
+    }
+.view1 {
+  display: flex;
+  padding: 25px 25px 0px 25px;
+}
+  .img1{
+    background-image: url(../../../images/girl1.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 150px;
+      }
+  .text-view{
+    width: 372px;
   }
+
+.view2{
+  display: flex;
+  margin-left: 10px;
+  padding: 25px 25px 0px 25px;
+}
+  .img2{
+    background-image: url(../../../images/girl2.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 150px;
+  }
+.name{
+  margin-left: 60px;
+}
+  .rev_nam{
+    border: 2px solid #d7d7d7;
+    margin-left: auto;
+  }
+
 }
