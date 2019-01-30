@@ -30,7 +30,6 @@
       padding: 0px;
       margin-left: 265px;
 
-
       ul {
         list-style: none;
         margin: 0;
@@ -52,7 +51,7 @@
           font-size: 20px;
           color: #ffffff
         }
-        a:hover{
+        a:hover {
           text-decoration-line: none;
           color: #60c5e5;
         }
@@ -69,17 +68,27 @@
       font-weight: bold;
       margin: 0 auto;
     }
-      .description{
-        position: absolute;
-        top: 175px;
-        padding-top: 18px;
-        left: 480px;
-        font-size: 16px;
-        width:20%;
-        color: white;
-        opacity: 0.7;
+    .description {
+      position: absolute;
+      top: 175px;
+      padding-top: 18px;
+      left: 480px;
+      font-size: 16px;
+      width: 20%;
+      color: white;
+      opacity: 0.7;
+    }
+    a {
+      text-decoration-line: none;
+      color: white;
+    }
 
-      }
+    a:hover {
+      color: #60c5e5;
+      transition: 1s;;
+    }
+
+
     .button-catalog{
       position: absolute;
       top: 240px;
@@ -136,8 +145,7 @@
   }
   .area:hover{
     text-decoration-line: none;
-    font-size: 15px;
-    transition: 1s;
+    color: #60c5e5;
   }
 }
   }

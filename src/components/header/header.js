@@ -8,7 +8,7 @@ export default class Header extends Component {
         return (
             <div className="header-main">
                 <div className="box-panel">
-                    <a href="/home"><div className="logo"></div></a>
+                    <a href="/"><div className="logo"></div></a>
                 <div className="ul-menu">
                     <ul>
                     <li><a href="/about" title="If you want to know about us">About us</a></li>
@@ -17,7 +17,7 @@ export default class Header extends Component {
                     </ul>
                 </div>
                     <div className="help">Together we help!</div>
-                    <div className="description">Brief description of the project</div>
+                    <div className="description"><a href="">Brief description of the project</a></div>
                     <div className="button-catalog">
                        <a href="/catalog"> <div className="catalog"><span>Catalog</span></div></a>
                         <div className="services">Services</div>

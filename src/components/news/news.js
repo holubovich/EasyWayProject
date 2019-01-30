@@ -6,7 +6,7 @@ export default class News extends Component {
         return (
             <div className="news_main">
 
-                <div className="review-main"><p> News <a href="" color="#f08051"><sup> All news</sup></a></p></div>
+                <div className="review-main"><p> News <a href=""><sup> All news</sup></a></p></div>
                 <div className="news_panel">
                     <div className="news new1">
                         <div className="text-news">Thanks to our donations, orphanage number 12 was able to purchase new furniture.</div>
