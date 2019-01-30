@@ -16,19 +16,28 @@ export default class SimpleSlider extends Component {
             <div className="main">
                 <Slider {...settings}>
                     <div>
-                        <h2>Charitable donations <br/>for the orphanage number 12</h2>
+                        <div className="slide-text">Charitable donations <br/>for the orphanage number 12</div>
                         <div className="button-catalog">
-                            <p className="catalog">More</p>
+                            <div className="catalog">More</div>
                             </div>
                     </div>
                     <div>
-                        <h2>Charitable donations <br/>for the orphanage number 12</h2>
+                        <div className="slide-text">Charitable donations <br/>for the orphanage number 12</div>
+                        <div className="button-catalog">
+                            <div className="catalog">More</div>
+                        </div>
                     </div>
                     <div>
-                        <h2>Charitable donations <br/>for the orphanage number 12</h2>
+                        <div className="slide-text">Charitable donations <br/>for the orphanage number 12</div>
+                        <div className="button-catalog">
+                            <div className="catalog">More</div>
+                        </div>
                     </div>
                     <div>
-                        <h2>Charitable donations <br/>for the orphanage number 12</h2>
+                        <div className="slide-text">Charitable donations <br/>for the orphanage number 12</div>
+                        <div className="button-catalog">
+                            <div className="catalog">More</div>
+                        </div>
                     </div>
 
                 </Slider>

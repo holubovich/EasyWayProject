@@ -8,7 +8,7 @@ export default class Footer extends Component {
         return (
             <div className="footer-main">
                 <div className="footer-panel">
-                    <div className="logo-ft"></div>
+                    <a href="/home"><div className="logo-ft"></div></a>
                     <div className="ul-menu">
                         <ul>
                             <li><a href="/about" title="Go to the page about us">About us</a></li>

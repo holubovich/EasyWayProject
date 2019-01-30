@@ -34,7 +34,7 @@
       ul {
         list-style: none;
         margin: 0;
-        padding: 0;
+        padding-top: 20px;
         text-align: center;
         height: 100%;
 
@@ -49,9 +49,12 @@
           text-decoration-line: underline;
           padding: 0;
           padding-top: 10px;
-          font-size: 10px;
-          font-weight: bold;
+          font-size: 20px;
           color: #ffffff
+        }
+        a:hover{
+          text-decoration-line: none;
+          color: #60c5e5;
         }
       }
     }
@@ -62,15 +65,16 @@
       top: 110px;
       left: 370px;
       color: white;
-      font-size: 50px;
+      font-size: 55px;
       font-weight: bold;
       margin: 0 auto;
     }
       .description{
         position: absolute;
         top: 175px;
+        padding-top: 18px;
         left: 480px;
-        font-size: 12px;
+        font-size: 16px;
         width:20%;
         color: white;
         opacity: 0.7;
@@ -78,48 +82,62 @@
       }
     .button-catalog{
       position: absolute;
-      top: 200px;
+      top: 240px;
       left: 435px;
 
       .catalog {
         border: 2px solid #fbad22;
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         padding: 15px;
         float: left;
         width: 100px;
         text-align: center;
 
       }
+      .catalog:hover{
+        background-color: rgba(251, 173, 34, 0.3) ;
+        transition: 1s;
+      }
       .services{
         border: 2px solid #2cbae7;
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         padding: 15px;
         float: right;
         margin-left: 20px;
         width: 100px;
         text-align: center;
       }
-
+      .services:hover{
+        background-color: rgba(44, 186, 231, 0.3) ;
+        transition: 1s;
+      }
     }
 .cabinet{
-  width: 150px;
+  width: 140px;
   float: right;
   color: white;
   text-align: right;
   text-decoration-line: underline;
+  padding-top: 10px;
 
   i{
     margin-top: 20px;
-    padding-right: 15px;
+    padding-right: 10px;
     float: left;
   }
-
-  p{
+  .area{
     margin-right: 20px;
-    font-size: 16px;
+    font-size: 14px;
     opacity: 0.8;
+    text-decoration-line: underline;
+    margin-top: 15px;
+  }
+  .area:hover{
+    text-decoration-line: none;
+    font-size: 15px;
+    transition: 1s;
   }
 }
   }

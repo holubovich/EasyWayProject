@@ -10,7 +10,7 @@ class Contacts extends Component {
         return (
             <div className="contacts-main">
                 <div className="page-about">
-                    <a href="/home" title="Back to the main page"> Main</a> / Contacts
+                    <a href="/" title="Back to the main page"> Main</a> / Contacts
                 </div>
                 <div className="main-wave">
                     <div className="wave left"></div>

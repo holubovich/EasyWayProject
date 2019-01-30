@@ -8,7 +8,7 @@ export default class About extends Component {
         return (
             <div className="body-about">
             <div className="page-about">
-               <a href="/home" title="Back to the main page"> Main</a> / About us
+               <a href="/" title="Back to the main page"> Main</a> / About us
             </div>
                 <div className="main-wave">
                     <div className="wave left"></div>

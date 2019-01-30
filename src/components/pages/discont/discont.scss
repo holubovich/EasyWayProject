@@ -1,0 +1,50 @@
+.discont-main {
+  width: 1184px;
+  height: 1200px;
+  margin: 0 auto;
+
+  .location {
+    text-align: center;
+    color: #b0b0b0;
+    width: 1184px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  a {
+    color: #b0b0b0;
+  }
+  .sale1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .disc {
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .discont{
+    background-image: url(../../../images/discont.png);
+    background-repeat: no-repeat;
+    background-size: 1184px 305px;
+    padding: 60px 0 60px 0;
+  }
+  .number{
+    color: #2cbae7;
+    font-size: 40px;
+    text-decoration: wavy underline #2cbae7;
+    width: 105px;
+    margin: auto;
+    }
+
+  .text{
+    height: 120px;
+    opacity: 0.8;
+    color: white;
+    width: 150px;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+}

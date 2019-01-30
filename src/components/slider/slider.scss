@@ -7,15 +7,20 @@
 
   .slick-slider{
   width: 711px;
-    p {
+
+   .catalog{
       border: 2px solid #fbad22;
       color: white;
-      font-size: 15px;
+      font-size: 20px;
       padding: 15px;
       margin:0 auto;
       width: 100px;
       text-align: center;
 
+    }
+    .catalog:hover{
+        background-color: rgba(251, 173, 34, 0.3) ;
+        transition: 1s;
     }
   }
 
@@ -31,10 +36,11 @@
     z-index: 1;
   }
 
-h2{
+.slide-text{
   color: white;
   text-align: center;
   margin-top: 150px;
+  font-size: 35px;
 }
 
   .slick-dots{

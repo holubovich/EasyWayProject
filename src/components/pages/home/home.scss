@@ -6,12 +6,20 @@
 
   
   .catalog-list{
-    height:140px;
-    width: 1184px;
+    width: 100%;
     position: relative;
     display: flex;
     text-align: center;
-    margin-top: 20px;
+
+    >div{
+      width: 200px;
+      height: 130px;
+      padding-top: 30px;
+    }
+    >div:hover{
+      background-color: rgba(225, 225, 225, 0.9);
+      transition: 0.5s;
+    }
     .list{
       position:relative;
       height: 70px;
@@ -52,11 +60,10 @@
       height: 45px;
       margin-top: 27px;
     }
-    p{
-      text-align: center;
-      width: 160px;
-      margin-left: 50px;
-    }
+      a{
+        color: #fcc35d;
+      }
+
 }
   .panel{
     display: flex;
@@ -71,32 +78,34 @@
 
       .text-element{
         text-align: center;
-        font-size: 35px;
+        font-size: 28px;
         font-weight: normal;
-        opacity: 0.5;
+        color: #0e2734;
         height: 50px;
         padding-top: 25px;
       }
       .element{
         display: flex;
-        height: 62px;
+        height: 80px;
         padding-top: 20px;
-        margin-top: 10px;
+
+
       }
       .number{
         width: 50%;
-        font-size: 35px;
+        font-size: 50px;
         text-align: center;
-        font-weight: bold;
+
       }
       .img{
         width: 40%;
         margin: 0 auto;
+        height: 80px;
+
 
       }
       .el_1{
         border-bottom: 1px solid #e1e1e1;
-        padding-bottom: 10px;
 
         .number1{
           color:#2cbae7;
@@ -104,9 +113,6 @@
         .img1{
           background-image: url(../../../images/gazprom.png);
           background-repeat: no-repeat;
-          margin-left: 60px;
-          margin-bottom: 20px;
-          height: 60px;
         }
       }
 
@@ -119,6 +125,7 @@
         .img2{
           background-image: url(../../../images/belbank.png);
           background-repeat: no-repeat;
+          margin-top: 20px;
         }
       }
 
@@ -129,6 +136,7 @@
         .img3{
           background-image: url(../../../images/belkaliy.png);
           background-repeat: no-repeat;
+          margin-top: 10px;
         }
       }
     }
@@ -141,10 +149,11 @@
     margin-bottom: 20px;
     margin-top: 30px;
   }
-  p{
+  .money-text{
     text-align: center;
     color: white;
     opacity: 0.7;
+    padding-top: 20px;
   }
     .mon1{
       background-color:#2cbae7 ;
@@ -159,7 +168,7 @@
     }}
   .mon_nmb{
     text-align: center;
-    font-size: 40px;
+    font-size: 65px;
     font-weight: bold;
     color: white;
   }
@@ -227,12 +236,17 @@
     display: flex;
     width: 240px;
     margin-left: 495px;
-    height: 90px;
+    height: 60px;
     }
+  a{
+    color: #f08051;
+  }
+  a:hover{
+    text-decoration-line: none;
+  }
     .review{
       display: flex;
       height: 180px;
-      margin-top: 25px;
     }
 .view1 {
   display: flex;
@@ -266,5 +280,16 @@
     border: 2px solid #d7d7d7;
     margin-left: auto;
   }
-
+h3{
+  text-align: center;
+  color: #0e2734;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  p{
+    color: #0e2734;
+    width:874px;
+    margin: 0 auto;
+  }
 }

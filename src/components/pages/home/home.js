@@ -10,12 +10,14 @@ export default class Home extends Component {
         return (
             <div className="home-main">
                 <div className="catalog-list">
-                    <p><div className="list item1"></div>Appliances</p>
-                    <p><div className="list item2"></div>Health and beauty</p>
-                    <p><div className="list item3"></div>Sport and tourism</p>
-                    <p><div className="list item4"></div>For children</p>
-                    <p><div className="list item5"></div>Training</p>
-                    <p><div className="list item6"></div><u>Whole catalog</u></p>
+                    <div><div className="list item1"></div>Appliances</div>
+                    <div><div className="list item2"></div>Health and beauty</div>
+                    <div><div className="list item3"></div>Sport and tourism</div>
+                    <div><div className="list item4"></div>For children</div>
+                    <div><div className="list item5"></div>Training</div>
+                    <div><div className="list item6"></div>
+                        <a href="/catalog" title="go to the whole catalog">Whole catalog</a>
+                    </div>
                 </div>
                 <div className="panel">
                     <div className="slider"><Slider/></div>
@@ -38,15 +40,15 @@ export default class Home extends Component {
                 </div>
                 <div className="money-main">
                     <div className="money mon1">
-                        <p>funds received</p>
+                        <div className="money-text">funds received</div>
                         <div className="mon_nmb">25 789 rub.</div>
                     </div>
                     <div className="money mon2">
-                        <p>not distributed</p>
+                        <div className="money-text">not distributed</div>
                         <div className="mon_nmb">11 524 rub.</div>
                     </div>
                     <div className="money mon3">
-                        <p>donated</p>
+                        <div className="money-text">donated</div>
                         <div className="mon_nmb">14 265 rub.</div>
                     </div>
                 </div>
@@ -56,7 +58,7 @@ export default class Home extends Component {
                     <div className="wave-text">All events</div>
                     <div className="wave right"></div>
                 </div>
-                <div className="review-main"><p> Reviews <a href="" color="#f08051"><sup> All reviews</sup></a></p></div>
+                <div className="review-main"><p> Reviews <a href=""><sup> All reviews</sup></a></p></div>
                    <div className="review">
                        <div className="rev_nam">
                            <div className="view1">
@@ -84,6 +86,10 @@ export default class Home extends Component {
                        </div>
                    </div>
                 <News/>
+                <div>
+                    <h3>Helping together is easy!</h3>
+                    <p><strong>EASY WAY</strong> - this is a support center for socially beneficial projects, in which there is a unique mechanism -<br/> an auction of meetings.This is a place where you can put up a meeting with you at an auction or win<br/> a meeting with a celebrity, a specialist in any field, or just a person who is interested in you.<strong> EASY WAY</strong> gives you the opportunity to make new friends and partners, get a new unforgettable experience and establish useful contacts.</p>
+                </div>
             </div>
 
         )
