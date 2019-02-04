@@ -1,6 +1,6 @@
 .body-catalog{
   width: 1184px;
-  height: 584px;
+  height: auto;
   margin: 0 auto;
 
   .page-catalog{
@@ -64,5 +64,89 @@
     width: 190px;
 
   }
+/*-----------------------------catalog-list--------------------------*/
+  .catalog-list{
+    display: flex;
+  }
+  .list{
+    width: 33%;}
+  .list-second{
+    display: flex;
+    .list-second1,.list-second2{
+      width: 33%;
+    }
 
+  }
+  .list1{
+    width: 135px;
+    text-align: center;
+    margin: 0 auto;
+    color: #939393;
+  }
+
+  .img1{
+    background-image: url("../../../images/wash.png");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 60px;
+    margin: 0 auto;
+
+  }
+  .list2{
+    width: 135px;
+    margin: 0 auto;
+    color: #939393;
+    text-align: center;
+  }
+  .img2{
+    background-image: url("../../../images/heart.png");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 60px;
+    margin: 0 auto;
+  }
+  .list3{
+    width: 135px;
+    margin: 0 auto;
+    color: #939393;
+    text-align: center;
+  }
+  .img3{
+    background-image: url("../../../images/sport.png");
+    background-repeat: no-repeat;
+    height: 70px;
+    margin: 0 auto;
+    width: 60px;
+  }
+  .img4{
+    background-image: url("../../../images/duck.png");
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  .img5{
+    background-image: url("../../../images/hat.png");
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  .list1:hover,.list2:hover,.list3:hover{
+    background-color: #e8e7e8;
+    border-radius: 20px;
+
+  }
+  //#go,.menu{
+  //  display: none;
+  //}
+  //#go:checked ~ .menu {
+  //  display:block;
+  //}
+  li{
+    list-style-type: none;
+    color:#1e343d;
+    font-size: 16px;
+    padding-top: 20px;
+  }
 }

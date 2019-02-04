@@ -9,7 +9,8 @@ export default class Discounts extends Component {
             <div className="discounts-main">
                 <div className="disc discont">
                     <div className="number num1"><strong>{this.props.number}</strong></div>
-                    <div className="text">Discount for accommodation <br/>in the catalog</div></div>
+                    <div className="text">Discount for accommodation <br/>in the catalog</div>
+                </div>
                 <div className="disc prize">
                     <div className="number num2"><strong>Prizes!</strong></div>
                     <div className="text">Register and participate<br/> in the prize draw</div></div>

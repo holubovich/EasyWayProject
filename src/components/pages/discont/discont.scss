@@ -1,6 +1,6 @@
 .discont-main {
   width: 1184px;
-  height: 1200px;
+  height: 900px;
   margin: 0 auto;
 
   .location {
@@ -36,7 +36,9 @@
     width: 105px;
     margin: auto;
   }
-
+  .text:hover{
+    color: #2cbae7;
+  }
   .text {
     height: 120px;
     opacity: 0.8;
@@ -46,6 +48,17 @@
     margin: auto;
     font-size: 25px;
     padding-top: 15px;
+  }
+  .conditions{
+    >div{
+      font-size: 16px;
+      padding-top: 24px;
+      height: 100%;
+    }
+  }
+  .cond1{
+    margin-top: 0;
+
   }
 }
   .main-wave {

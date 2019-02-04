@@ -78,6 +78,12 @@
     background-image: url("../../../images/happy-kids.png");
     margin-top: -365px;
     margin-right: 10px;
+    transform-style: preserve-3d;
+  }
+  .happy-kids:hover{
+
+    transform: rotateY(25deg);
+
   }
   a{
     color: #b0b0b0;

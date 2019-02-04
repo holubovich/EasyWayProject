@@ -16,12 +16,28 @@ export default class Discont extends Component {
                     <div className="wave-text">Conditions:</div>
                     <div className="wave right"></div>
                 </div>
-                <div>
-                    <p>In the course of its activities, the company must make a number of decisions:
+                <div className="conditions">
+
+                    <div className="cond1">In the course of its activities, the company must make a number of decisions:
                         what product or product line should be produced and sold;
                         what markets to enter with this product and how to strengthen its position in the market;
                         how to choose the optimal production technology; what materials to purchase and how to use them;
-                        how to distribute available models and financial resources</p>
+                        how to distribute available models and financial resources
+                    </div>
+                    <div>what indicators of its activity does the enterprise prefer (should)
+                        achieve in relation to the technical characteristics of the goods produced,
+                        its quality, production efficiency
+                    </div>
+                    <div>In the course of its activities, the company must make a number of decisions:
+                        what product or product line should be produced and sold;
+                        what markets to enter with this product and how to strengthen its position in the market;
+                        how to choose the optimal production technology; what materials to purchase and how to use them;
+                        how to distribute available models and financial resources
+                    </div>
+                    <div>what indicators of its activity does the enterprise prefer (should)
+                        achieve in relation to the technical characteristics of the goods produced,
+                        its quality, production efficiency
+                    </div>
                     </div>
             </div>
 
