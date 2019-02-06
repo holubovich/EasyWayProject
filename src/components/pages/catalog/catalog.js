@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./catalog.scss";
 import CatalogList from "../../cataloglist/cataloglist.js"
 
-const catalogCategories = [{name:"Large machinery",id:"1"},{name:"Built-in appliances",id:"2"},{name:"Cleaning, clothing care, tailoring",id:"3"},{name:"Climate technology",id:"4"},{name:"Cooking food",id:"5"},
+let catalogCategories = [{name:'Large machinery',id:1},{name:"Built-in appliances",id:"2"},{name:"Cleaning, clothing care, tailoring",id:"3"},{name:"Climate technology",id:"4"},{name:"Cooking food",id:"5"},
     {name:"Built-in appliances",id:"6"},{name:"Cooking tea and coffee",id:"7"},{name:"Preparation and processing of products",id:"8"},{name:"Hair and body care",id:"9"},{name:"Related products and accessories",id:"10"}]
 const catalogSubCategories = [{1:["Refrigerators","Freezers","Washing machines","Drying machines","Hoods","Cookers","Dishwashers","Wine cabinets"]},{2:["Refreg","TV","clo"]}]
 
@@ -29,7 +29,7 @@ export default class Catalog extends Component {
                                 <div className="img1"></div>Appliances
                             </div>
                             <ul>
-                                {catalogCategories.map((item)=>{
+                                {catalogCategories.map((item) => {
                                     return <li>{item.name}</li>
                                 })}
                             </ul>

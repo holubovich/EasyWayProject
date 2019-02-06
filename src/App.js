@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import Home from './components/pages/home/home';
 import About from './components/pages/about/about';
 import Sale from './components/pages/sale/sale';
@@ -30,7 +31,7 @@ class App extends React.Component {
         <BrowserRouter history={history}>
 
 
-          <div>
+          <div className="container">
 
               <Header/>
 

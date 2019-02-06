@@ -1,63 +1,47 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Catalog from "../../components/pages/catalog/catalog.js";
+import React, { Component } from "react";
+import "./cataloglist.scss"
+import Catalog from "../pages/catalog/catalog.js";
 
-export default class CatalogList extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {value: ''};
-        this.handleChange = this.handleChange.bind(this);
 
-    }
-    handleChange(event) {
-        this.setState({value: event.target.value});
-    }
-    render() {
-        return (
-            <div>
-                <input type="text"
-                       placeholder="&#xF002;Search by catalog"
-                       value={this.state.value}
-                       onChange={this.handleChange} />
-            </div>
-        );
+function searchingFor(term){
+    return function(x){
+return x.name.toLowerCase().includes(term.toLowerCase()) || !term;
     }
 }
 
-ReactDOM.render(
-    <CatalogList />,
-    document.getElementById('root')
-);
+export default class CatalogList extends React.Component {
+    constructor(props){
+        super(props);
+        this.state={
+            catalogCategories:'catalog',
+            term:'',
+
+        }
+        this.searchHandler=this.searchHandler.bind(this);
+
+    }
+    searchHandler(event){
+        this.setState({term: event.target.value.substr(0,40)})
+    }
+    render() {
+        return (
+
+            <div className="Catalog">
+
+                <form>
+                    <input type="text"
+                        onChange={this.searchHandler}
+                           value={this.state.term}
+                           placeholder="Search by catalog"
+                        />
+                </form>
+
+            </div>
+
+        );
+    }
+
+}
 
 
-//            search : 'Level Up'
-//        };
-//    }
-//    updateSearch (event){
-//        this.setState({search:event.target.value.substr(0,20)});
-//    }
-//    render(){
-//        let filteredCatalog= this.props.catalog.filter(
-//            (catalog)=>{
-//                return catalog.name.toLowerCase().indexOf(
-//                    this.state.search.toLowerCase()) !== -1;
-//            }
-//        );
-//        return(
-//            <div>
-//                <input type = "text"
-//                       placeholder ="Search by catalog"
-//                       value ={this.state.search}
-//                       onChange ={this.updateSearch.bind(this)}/>
-//                <ul>
-//                    {filteredCatalog.map((catalog)=>{
-//                        return <Catalog catalog = {catalog}
-//                                        key = {catalog.id}/>
-//                    })}
-//                </ul>
-//            </div>
-//        )
-//    }
-//}
-//
-//export default CatalogList;
+
