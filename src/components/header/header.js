@@ -24,7 +24,7 @@ export default class Header extends Component {
                     </div>
                     <div className="cabinet">
                        <div> <i className="fas fa-user-alt" aria-hidden="true"></i> </div>
-                        <div className="area"> Personal Area</div>
+                        <div className="area"><a href="/cabinet">Personal Area</a> </div>
                     </div>
 
                 </div>
