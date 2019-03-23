@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./cabinet.scss";
 import HospiceList from "../../hospice-list/hospice-list.js";
+import SimpleTable from "../../table/table.js";
 
 export default class Cabinet extends Component {
     render() {
@@ -9,6 +10,7 @@ export default class Cabinet extends Component {
                 <div className="page-about">
                     <a href="/" title="Back to the main page"> Main</a> / Personal Area
                 </div>
+                <SimpleTable/>
                 <div className="main-wave">
                     <div className="wave left"></div>
                     <div className="wave-text">Description:</div>
